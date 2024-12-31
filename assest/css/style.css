@@ -1,0 +1,45 @@
+
+/* =============== universal section start ============== */
+/* =============== font style link section start =============== */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* =============== /font style link section end =============== */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    transition: all 1s ease-in-out !important;
+}
+
+a.active {
+    color: #EA512E !important;
+}
+
+/* =============== /universal section end ============== */
+
+/* ============== header section start ============== */
+.navbar-brand {
+    margin-left: 40px;
+}
+
+.navbar .navbar-collapse a:hover {
+    color: #EA512E !important;
+    font-weight: bold !important;
+    transition: all 1s ease-in-out !important;
+    letter-spacing: 1px;
+}
+
+/* ============== /header section end ============== */
+
+
